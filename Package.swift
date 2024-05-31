@@ -6,7 +6,6 @@ import PackageDescription
 let package = Package(
     name: "BarcodeCore",
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "BarcodeCore",
             targets: ["BarcodeCoreTarget"]),
